@@ -18,15 +18,10 @@
         <activity
             android:name=".food"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".RecipeApp"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:exported="true" />
     </application>
 
 </manifest>

@@ -3,72 +3,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".RecipeApp">
-
+    tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/recipeImageView"
+        android:id="@+id/recipeImageView1"
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="13dp"
         android:layout_marginTop="20dp"
+        android:contentDescription="@string/todo"
         android:scaleType="centerCrop"
         android:src="@drawable/img_2" />
 
     <TextView
-        android:id="@+id/recipeNameTextView"
+        android:id="@+id/recipeNameTextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeImageView"
+        android:layout_below="@id/recipeImageView1"
         android:layout_centerHorizontal="true"
-        android:text="RecipeApp"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="@string/recipeapp"
         android:textColor="#5C0B6A"
-        android:layout_marginTop="10dp"/>
-
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/recipeDescriptionTextView"
+        android:id="@+id/recipeDescriptionTextView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeNameTextView"
+        android:layout_below="@id/recipeNameTextView2"
         android:layout_centerHorizontal="true"
-        android:text="Welcome to our Recipe app"
+        android:layout_marginTop="10dp"
+        android:text="@string/welcome_to_our_recipe_app"
         android:textColor="#E91E63"
-        android:textStyle="italic"
         android:textSize="20sp"
-        android:layout_marginTop="10dp"/>
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/FoodButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeDescriptionTextView"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="21dp"
+        android:layout_below="@id/recipeDescriptionTextView3"
         android:layout_marginTop="10dp"
-        android:padding="10dp"
         android:background="#44A1AB"
-        android:text="FOOD"
+        android:padding="10dp"
+        android:text="@string/food"
         android:textStyle="bold" />
-
 
     <Button
         android:id="@+id/DrinksButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeDescriptionTextView"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="80dp"
-        android:padding="10dp"
+        android:layout_below="@id/FoodButton"
+        android:layout_marginTop="10dp"
         android:background="#4D944F"
-        android:text="Drinks"
+        android:padding="10dp"
+        android:text="@string/drinks"
         android:textStyle="bold" />
 
-
 </RelativeLayout>
-
-

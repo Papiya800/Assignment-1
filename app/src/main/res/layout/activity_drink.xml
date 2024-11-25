@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -10,19 +9,16 @@
     android:padding="30dp"
     tools:context=".drink">
 
-
-<TextView
+    <TextView
         android:id="@+id/recipeDescriptionTextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeImageView"
         android:layout_gravity="center"
-        android:text="Drinks List"
+        android:text="@string/drinks_list"
         android:layout_marginBottom="16dp"
         android:textColor="#E91E63"
         android:textSize="40sp"
         android:textStyle="bold" />
-
 
 
     <ImageView
@@ -31,6 +27,7 @@
         android:layout_height="100dp"
         android:layout_margin="@dimen/material_emphasis_medium"
         android:layout_marginTop="40dp"
+        android:contentDescription="@string/todo3"
         android:scaleType="centerCrop"
         android:src="@drawable/img_6" />
 
@@ -38,10 +35,8 @@
         android:id="@+id/recipeDescriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeImageView"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="Paloma Cocktail"
+        android:text="@string/paloma_cocktail"
         android:layout_marginBottom="20dp"
         android:textColor="#5C0B6A"
         android:textSize="20sp"
@@ -53,16 +48,16 @@
         android:layout_height="100dp"
         android:layout_margin="@dimen/material_emphasis_medium"
         android:layout_marginTop="40dp"
+        android:contentDescription="@string/todo1"
         android:scaleType="centerCrop"
         android:src="@drawable/img_7" />
+
     <TextView
         android:id="@+id/recipeNameTextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeImageView"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="Kitkat cafe cold coffee"
+        android:text="@string/kitkat_cafe_cold_coffee"
         android:layout_marginBottom="20dp"
         android:textColor="#5C0B6A"
         android:textSize="20sp"
@@ -74,16 +69,17 @@
         android:layout_height="100dp"
         android:layout_margin="@dimen/material_emphasis_medium"
         android:layout_marginTop="40dp"
+        android:contentDescription="@string/todo2"
         android:scaleType="centerCrop"
-        android:src="@drawable/img_8" />
+        android:src="@drawable/img_8"
+        tools:ignore="ImageContrastCheck" />
+
     <TextView
         android:id="@+id/recipeNameTextView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeImageView"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="Kit Kat Coffee Milkshake"
+        android:text="@string/kit_kat_coffee_milkshake"
         android:layout_marginBottom="20dp"
         android:textColor="#5C0B6A"
         android:textSize="20sp"

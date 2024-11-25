@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name" translatable="false">LOGIN</string>
+    <string name="food_list">Food List</string>
+    <string name="rohu_fish_curry">Rohu Fish Curry</string>
+    <string name="easy_vegetarian_mexican_rice">Easy Vegetarian Mexican Rice</string>
+    <string name="marry_me_chicken">Marry Me Chicken</string>
+    <string name="easy_fried_rice">Easy Fried Rice</string>
+    <string name="drinks_list">Drinks List</string>
+    <string name="paloma_cocktail">Paloma Cocktail</string>
+    <string name="kitkat_cafe_cold_coffee">Kitkat cafe cold coffee</string>
+    <string name="kit_kat_coffee_milkshake">Kit Kat Coffee Milkshake</string>
+    <string name="recipeapp">RecipeApp</string>
+    <string name="welcome_to_our_recipe_app">Welcome to our Recipe app</string>
+    <string name="food">FOOD</string>
+    <string name="drinks">Drinks</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -10,101 +11,98 @@
     android:padding="30dp"
     tools:context=".food">
 
-
+    <!-- Header Text -->
     <TextView
         android:id="@+id/recipeDescriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeNameTextView"
         android:layout_gravity="center"
-        android:text="Food List"
         android:layout_marginBottom="16dp"
+        android:text="@string/food_list"
         android:textColor="#E91E63"
         android:textSize="40sp"
         android:textStyle="bold" />
 
-
+    <!-- Recipe 1 -->
     <ImageView
         android:id="@+id/recipeImageView1"
         android:layout_width="152dp"
         android:layout_height="100dp"
-        android:layout_margin="@dimen/material_emphasis_medium"
         android:layout_marginTop="40dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/img_1" />
+        android:src="@drawable/img_1"
+        android:contentDescription="@string/rohu_fish_curry" />
 
     <TextView
         android:id="@+id/recipeNameTextView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeImageView"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="Rohu Fish Curry"
         android:layout_marginBottom="20dp"
+        android:text="@string/rohu_fish_curry"
         android:textColor="#5C0B6A"
         android:textSize="20sp"
         android:textStyle="bold" />
 
+    <!-- Recipe 2 -->
     <ImageView
         android:id="@+id/recipeImageView2"
         android:layout_width="152dp"
         android:layout_height="100dp"
-        android:layout_margin="@dimen/material_emphasis_medium"
         android:layout_marginTop="40dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/img_3" />
+        android:src="@drawable/img_3"
+        android:contentDescription="@string/easy_vegetarian_mexican_rice" />
+
     <TextView
         android:id="@+id/recipeNameTextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeImageView"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="Easy Vegetarian Mexican Rice"
         android:layout_marginBottom="20dp"
+        android:text="@string/easy_vegetarian_mexican_rice"
         android:textColor="#5C0B6A"
         android:textSize="20sp"
         android:textStyle="bold" />
 
+    <!-- Recipe 3 -->
     <ImageView
         android:id="@+id/recipeImageView3"
         android:layout_width="152dp"
         android:layout_height="100dp"
-        android:layout_margin="@dimen/material_emphasis_medium"
         android:layout_marginTop="40dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/img_4" />
+        android:src="@drawable/img_4"
+        android:contentDescription="@string/marry_me_chicken" />
+
     <TextView
         android:id="@+id/recipeNameTextView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeImageView"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="Marry Me Chicken"
         android:layout_marginBottom="20dp"
+        android:text="@string/marry_me_chicken"
         android:textColor="#5C0B6A"
         android:textSize="20sp"
         android:textStyle="bold" />
 
+    <!-- Recipe 4 -->
     <ImageView
         android:id="@+id/recipeImageView4"
         android:layout_width="152dp"
         android:layout_height="100dp"
-        android:layout_margin="@dimen/material_emphasis_medium"
         android:layout_marginTop="40dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/img_5" />
+        android:src="@drawable/img_5"
+        android:contentDescription="@string/easy_fried_rice" />
+
     <TextView
         android:id="@+id/recipeNameTextView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/recipeImageView"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="Easy Fried Rice"
         android:layout_marginBottom="20dp"
+        android:text="@string/easy_fried_rice"
         android:textColor="#5C0B6A"
         android:textSize="20sp"
         android:textStyle="bold" />
